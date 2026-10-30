@@ -1,6 +1,6 @@
 [
     {
-      "title": "Predicting Recipe Ratings from Recipe Characteristics",
+      "title": "12 Predicting Recipe Ratings from Recipe Characteristics",
       "year": "2026",
       "image": "https://vis-society.github.io/labs/2/images/empty.svg",
       "description": "DSC 80 final project. Used the Food.com recipes and ratings datasets to explore whether preparation time, number of ingredients, and number of steps can predict a recipe's average rating."
