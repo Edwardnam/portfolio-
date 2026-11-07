@@ -19,6 +19,7 @@ let pages = [
   { url: 'contact/', title: 'Contact' },
   { url: 'https://github.com/EdwardNam', title: 'Github' },
   { url: 'resume/', title: 'Resume' },
+  {url: 'resume/', title: 'Meta'},
 ];
 
 let nav = document.createElement('nav');
