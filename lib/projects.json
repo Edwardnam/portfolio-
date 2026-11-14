@@ -1,4 +1,11 @@
 [
+  {
+    "title": "DSC 106 Lab 7: Bikewatching",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Interactive Mapbox + D3 map of Bluebikes traffic in Boston and Cambridge, with circles sized by trip volume, colored by arrivals vs. departures, and filterable by time of day."
+  },
+    
     {
       "title": "12 Predicting Recipe Ratings from Recipe Characteristics",
       "year": "2026",
