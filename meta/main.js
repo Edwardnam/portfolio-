@@ -323,6 +323,7 @@ function updateScatterPlot(data, commits) {
 
 let data = await loadData();
 let commits = processCommits(data);
+commits.sort((a, b) => a.datetime - b.datetime);
 renderCommitInfo(data, commits);
 renderScatterPlot(data, commits);
 
@@ -412,6 +413,11 @@ d3.select('#scatter-story')
     filteredCommits = commits.filter((d) => d.datetime <= commitMaxTime);
     updateScatterPlot(data, filteredCommits);
     updateFileDisplay(filteredCommits);
+    
+    commitProgress = timeScale(commitMaxTime);
+    document.getElementById('commit-progress').value = commitProgress;
+    document.getElementById('commit-time').textContent =
+      commitMaxTime.toLocaleString('en', { dateStyle: 'long', timeStyle: 'short' });
   }
   
   const scroller = scrollama();
